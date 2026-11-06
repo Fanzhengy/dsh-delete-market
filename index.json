@@ -1,0 +1,41 @@
+
+{
+  "format": 1,
+  "title": {
+    "en": "My DSH Plugin Market",
+    "zh": "我的 DSH 插件源"
+  },
+  "description": {
+    "en": "A custom market containing DSH-DELETE.",
+    "zh": "收录 DSH-DELETE 的个人插件源。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-delete",
+      "title": {
+        "en": "DSH-DELETE",
+        "zh": "会话删除"
+      },
+      "description": {
+        "en": "Recoverable conversation deletion for DeepSeek Harness.",
+        "zh": "为 DeepSeek Harness 增加可恢复的单条会话删除功能。"
+      },
+      "author": "Hyna-hla",
+      "homepage": "https://github.com/Hyna-hla/DSH-DELETE",
+      "repository": {
+        "url": "https://github.com/Hyna-hla/DSH-DELETE"
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1786752000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Hyna-hla/DSH-DELETE",
+            "commit": "aea404b2bbfa25e373c81ef45a15b6795c46e2af"
+          }
+        }
+      ]
+    }
+  ]
+}
